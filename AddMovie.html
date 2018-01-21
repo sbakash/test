@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add movie</title><link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/movie-m.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300">
+<meta name="description" content="My Movies">
+<meta charset="utf-8">
+
+</head>
+
+<body>
+	<header>
+		<img src="./images/projector-logo.png" class="logo fleft">
+		<nav >
+			<ul class="fright">
+				<li ><a href="#">HOME</a></li>
+				<li ><a href="#">ADD MOVIE</a></li>
+			</ul>
+		</nav>
+	</header>
+
+<div class="clearfix"></div>
+
+	<form action="/#" method="Get" class="movie-form">
+		<h2>Add a New Movie</h2>
+		<ul>
+			<li>
+			<label for="movie-name">Movie Name:</label>
+				<input id="movie-name" type="text" name="movie-name" required/>
+			</li>
+			<li>
+			<label for="release-year">Release Year:</label>
+				<input id="release-year" type="text" name="release-year"/>
+			</li>
+			<li>
+
+			<div class="divide language-div">
+			<label for="lang">Language</label>
+			<select name="lang" id="lang">
+				<option value="english">English</option>
+				<option value="tamil">Tamil</option>
+				<option value="hindi">Hindi</option>
+				<option value="telegu">Telegu</option>
+			</select></div>
+
+
+			<div class="divide">
+			<label for="rating">Rating</label>
+				<select name="rating" id="rating">
+				<option value="5">5</option>
+				<option value="4">4</option>
+				<option value="3">3</option>
+				<option value="2">2</option>
+				<option value="1">1</option>
+			</select></div></li><li>
+			<label for="thumb-url">Thumbnail URL</label>
+			<input type="URL" name="thumb" id="thumb-url"/>
+		</li><li>
+		<label for="plot">Plots</label>
+		<textarea rows=4></textarea></li>
+		<li>
+			<label for="poster-url">Poster URL</label>
+			<input type="URL" name="post" id="poster-url"/>
+		</li>
+<li>
+		<label for="plot">Cast</label>
+		<textarea rows=4></textarea></li>
+		<li>
+			<Button type="submit" value="save"/>SAVE</Button></li>
+		</ul>
+</form>
+
+<footer>
+	<img src="./images/projector-logo.png" class="logo fright">
+	<div class="fleft icon-list">
+		<a href=""><img src="./images/facebook.png" class="icon"></a>
+		<a href=""><img src="./images/twitter.png" class="icon"></a>
+		<a href=""><img src="./images/instagram.png" class="icon"></a>
+	</div>
+</footer>
+
+
+
+</body>
+</html>
